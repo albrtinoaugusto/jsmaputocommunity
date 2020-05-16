@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "8.13.0"
+script:
+  - echo "Deploying!"
+install:
+  - npm install -g firebase-tools
+after_sucess:
+  - firebase deploy --token $FIREBASE_TOKEN
