@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Tchitchinha" />
+    <meta name="keywords" content="Tchitchinha">
+    <title>Login</title>
+
+    <link rel="shortcut icon" href="../../_assets/as2/images/favicon.ico">
+
+    <link rel="stylesheet" href="../../_assets/as2/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../_assets/as2/vendor/animate-css/animate.min.css">
+    <link rel="stylesheet" href="../../_assets/as2/vendor/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../../_assets/as2/vendor/sweetalert/sweetalert.css" />
+
+    <link rel="stylesheet" href="../../_assets/as2/css/main.css">
+    <link rel="stylesheet" href="../../_assets/as2/css/color_skins.css">
+
+
+</head>
+
+<body class="theme-green">
+    <!-- WRAPPER -->
+    <div id="wrapper">
+        <div class="vertical-align-wrap">
+            <div class="vertical-align-middle auth-main">
+                <div class="auth-box">
+
+                    <div class="auth-left">
+                        <div class="left-slider">
+                            <img src="../../_assets/as2/images/login/student.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="auth-right">
+                        <div class="card">
+                            <div class="header">
+                                <p class="lead">Login</p>
+                            </div>
+                            <div class="body">
+                                <form class="form-auth-small" method="post" action="#" id="login_form" name="login_form">
+                                    <div class="form-group">
+                                        <label for="signin-email" class="control-label sr-only">Email ou Telefone</label>
+                                        <input type="text" name="username" class="form-control" id="sigin-email" placeholder="E-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="signin-password" class="control-label sr-only">Senha</label>
+                                        <input type="password" name="password" class="form-control" id="sigin-password" placeholder="********">
+                                    </div>
+                                    <div class="form-group clearfix">
+                                        <label class="fancy-checkbox element-left">
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-lg btn-block">Entrar</button>
+                                    <a href="teacher/" class="btn btn-info btn-lg btn-block">Professor</a>
+                                    <div class="bottom">
+                                        <span class="helper-text m-b-10">
+                                                <i class="fa fa-lock"></i> <a href="../../tchitchinha/retrieve/">Esqueci a Senha</a>
+                                            </span>
+                                        <span>Não tem uma conta? <a href="../../tchitchinha/subscribe/path-2/">Crie Agora</a></span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script defer src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/7.14.0/firebase-storage.js"></script>
+<script defer src="../../_assets/more/firedata.js"></script>
+<script defer src="../../_assets/more/auth.js"></script>
+
+<script defer src="../../_assets/as2/vendor/sweetalert/sweetalert.min.js"></script>
+<script defer src="../../_assets/more/main.js"></script>
+<script defer src="../../_assets/more/login.js"></script>
+
+</html>

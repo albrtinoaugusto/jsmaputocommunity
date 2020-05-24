@@ -1,0 +1,44 @@
+
+
+.custom-form-label
+{
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+
+.left_field 
+{
+    width: 250px; 
+    position: relative; 
+    float: left;
+}
+
+
+.right_field 
+{
+    width: 250px; 
+    position: relative; 
+    float: right;
+}
+
+
+@media (max-width: 607px)
+{  
+
+    .left_field
+    {
+        width: 100%;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+
+    .right_field
+    {
+        width: 100%;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+}
+
