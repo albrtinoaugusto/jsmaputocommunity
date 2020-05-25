@@ -1,3 +1,8 @@
+body ::selection {
+  color: white;
+  background: #9fd134;
+}
+
 .seocrawler-body h1,
 .seocrawler-body h2,
 .seocrawler-body h3,
